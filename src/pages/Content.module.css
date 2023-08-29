@@ -1,0 +1,76 @@
+.container {
+    width: 60%;
+    max-width: 1440px;
+    margin: 32px auto;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff731d;
+  }
+  
+  .emdash {
+    margin-right: 4px;
+  }
+  
+  .commentFooter {
+    font-size: 16px;
+  }
+  
+  
+  .commentText {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.4;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+      margin: 16px;
+    }
+    .content {
+      padding: 24px;
+    }
+    .header {
+      gap: 8px;
+    }
+    .title {
+      font-size: 24px;
+    }
+    .subtitle {
+      font-size: 18px;
+    }
+    .comment {
+      padding: 32px 24px 24px 48px;
+    }
+    .comment::before {
+      font-size: 72px;
+      left: 12px;
+    }
+    .commentText {
+      font-size: 16px;
+    }
+    .commentFooter {
+      font-size: 14px;
+    }
+    .editLink {
+      font-size: 14px;
+    }
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
